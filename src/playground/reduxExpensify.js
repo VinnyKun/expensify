@@ -19,7 +19,7 @@ const removeExpense = ({id} = {}) => ({
     id
 })
 
-//EDIT_EEXPENSE
+//EDIT_EXPENSE
 const editExpense = (id, updates) => ({
     type: 'EDIT_EXPENSE',
     id,
